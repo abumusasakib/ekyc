@@ -64,7 +64,7 @@ class ImageCaptureView extends StatelessWidget {
                             child: imageMap.containsKey(type)
                                 ? GestureDetector(
                                     onTap: () => context.go(
-                                        '${RouterPaths.imageTakerScreen}/${type}'),
+                                        '${RouterPaths.imageTakerScreen}/$type'),
                                     child: Image.file(imageMap[type]!,
                                         fit: BoxFit.cover),
                                   )
