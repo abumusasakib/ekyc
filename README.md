@@ -4,9 +4,9 @@ A Flutter package designed to automate the eKYC process. This app allows users t
 
 ## Application Features
 
-- **Customer Photo Capture**: Take a selfie using the front camera with real-time liveness detection.
+- **Customer Photo Capture**: Take a selfie using the front camera.
 - **NID Front and Back Capture**: Capture both sides of the National ID, with cropping features for better precision.
-- **Signature Capture**: Capture the customer's signature for verification.
+- **Signature Capture**: Capture the customer's signature.
 
 ## How It Works
 
