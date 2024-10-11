@@ -1,0 +1,56 @@
+# include: package:effective_dart/analysis_options.yaml
+
+    
+# analyzer:
+#   errors:
+#     todo: warning
+  
+#   strong-mode:
+#     implicit-casts: true
+#     implicit-dynamic: false
+
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+#   strong-mode:
+#     implicit-casts: true
+#     implicit-dynamic: false
+  errors:
+    todo: info
+    file_names: error
+    unused_local_variable: info
+    unused_element: info
+    unused_field: info
+    # if widget class dose not have correct state type
+    library_private_types_in_public_api: warning
+    avoid_unnecessary_containers: warning
+    use_key_in_widget_constructors: error
+    missing_enum_constant_in_switch: error
+    prefer_initializing_formals: warning
+    use_build_context_synchronously: warning
+    deprecated_member_use: warning
+    prefer_const_constructors: warning 
+    implementation_imports: error
+    depend_on_referenced_packages: false
+    
+  exclude:
+    - test_driver/**
+    - /**.g.dart
+    - /**.inject.dart
+    - /**.inject.summary
+    - /**.freezed.dart
+    - /**.inject.dart
+    - /**.mocks.dart
+    - mason/**
+    
+linter:
+  rules:
+    use_super_parameters: true
+    avoid_print: false
+    # Add an exception for secure_pubspec_urls
+    secure_pubspec_urls: false
+    # use_build_context_synchronously: false
+    depend_on_referenced_packages: false 
+#     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
