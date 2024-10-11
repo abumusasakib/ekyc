@@ -20,10 +20,10 @@ The eKYC package operates through a streamlined workflow:
 
 ### App Flow
 
-1. **Customer selects the document type** (Customer Photo, NID Front, NID Back, or Signature).
-2. **The camera is opened** for the user to capture the selected document.
+1. **Customer captures 4 images one by one** (Customer Photo, NID Front, NID Back, or Signature).
+2. **The camera is opened** for the user to capture the images one by one.
 3. **Captured images are previewed** and saved.
-4. **Once all documents are captured**, the user can proceed to the next step for submission.
+4. **Once all images are captured**, the user can proceed to the next step for submission.
 
 ## Build and Run Setup
 
@@ -120,4 +120,4 @@ The app includes a pre-configured `launch.json` for VSCode to simplify the debug
 }
 ```
 
-This allows you to easily switch between debug and release modes while running the app.
+This allows to easily switch between debug and release modes while running the app.
