@@ -1,6 +1,6 @@
 # Ekyc
 
-A Flutter package designed to automate the eKYC process. This app allows users to capture and submit essential documents and biometrics, including customer photos, National ID (NID) front and back images, and digital signatures. The captured images are processed locally on the device, and liveness checks for customer photos are handled in real-time.
+A Flutter package designed to automate the eKYC process. This app allows users to capture and submit essential documents and biometrics, including customer photos, National ID (NID) front and back images, and digital signatures. The captured images are processed locally on the device.
 
 ## Application Features
 
@@ -23,7 +23,7 @@ The eKYC package operates through a streamlined workflow:
 1. **Customer captures 4 images one by one** (Customer Photo, NID Front, NID Back, or Signature).
 2. **The camera is opened** for the user to capture the images one by one.
 3. **Captured images are previewed** and saved.
-4. **Once all images are captured**, the user can proceed to the next step for submission.
+4. **Once all images are captured**, the user can proceed to the next step for submission. (Need to be implemented)
 
 ## Build and Run Setup
 
