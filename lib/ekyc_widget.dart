@@ -5,10 +5,10 @@ import 'package:ekyc/core/dependency/auto_injector.dart';
 import 'package:ekyc/core/dependency/injector.dart';
 import 'package:ekyc/core/routes/router_config.dart';
 import 'package:ekyc/feature/presentation/bloc/image_capture_bloc.dart';
+import 'package:ekyc/l10n/app_localizations.dart';
 import 'package:ekyc/l10n/localization_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class EkycWidget extends StatefulWidget {
